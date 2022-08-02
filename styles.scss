@@ -1,0 +1,46 @@
+#content-section{
+    margin: 3rem 5rem;
+
+    .left-section {
+        width: 25%;
+        float:left;
+    
+        h1{
+            color: #4A224E;
+            font-weight: bold;
+        }
+    
+        p{
+            color:#A79FA8;
+        }
+    }
+
+    .right-section{
+        float:right;
+        
+        .star-rating-box{
+            padding: 10px;
+            margin: 0;
+            text-align: center;
+            background-color: #F6F2F7;
+            border-radius: 5px;
+            position:absolute;
+            color:#4A224E;
+            font-weight: bold;
+
+            .stars{
+                float: left;
+                padding: 0 10px;
+
+                span.fa.fa-star.checked {
+                    color: gold;
+                }
+            }
+
+            span.text{
+                padding: 0 3rem 0 10px;
+            }
+        }
+    }
+
+}
