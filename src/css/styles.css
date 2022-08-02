@@ -21,14 +21,15 @@
 }
 
 #content-section .right-section .star-rating-box {
-  padding: 10px;
+  padding: 15px;
   margin: 0;
   text-align: center;
   background-color: #F6F2F7;
   border-radius: 5px;
-  position: absolute;
   color: #4A224E;
   font-weight: bold;
+  position: relative;
+  left: -250px;
 }
 
 #content-section .right-section .star-rating-box .stars {
@@ -42,5 +43,39 @@
 
 #content-section .right-section .star-rating-box span.text {
   padding: 0 3rem 0 10px;
+}
+
+#content-section .col-4.review-box {
+  background-color: #4B224F;
+  padding: 2rem 1.5rem;
+  margin-top: 5rem;
+  width: 25%;
+  border-radius: 5px;
+  margin: 5rem 5rem 0 0;
+}
+
+#content-section .col-4.review-box .buyer-details img {
+  border-radius: 50%;
+}
+
+#content-section .col-4.review-box .buyer-details span {
+  color: white;
+  font-weight: bold;
+  position: relative;
+  left: 20px;
+  top: -10px;
+}
+
+#content-section .col-4.review-box .buyer-details p {
+  font-size: 12px;
+  font-weight: bold;
+  color: #8F517D;
+  position: relative;
+  left: 75px;
+  top: -25px;
+}
+
+#content-section .col-4.review-box .feedback-text {
+  color: white;
 }
 /*# sourceMappingURL=styles.css.map */
